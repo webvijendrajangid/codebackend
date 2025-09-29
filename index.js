@@ -53,7 +53,7 @@ app.get('/login', (req, res) => {
   res.send('<h1>You are login page</h1>')
 })
 
-app.get('/github', (req, res) => {
+app.get('/githubuser', (req, res) => {
   res.json(githubData)
 })
 
